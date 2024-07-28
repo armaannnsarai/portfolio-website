@@ -310,7 +310,16 @@ html {
   color: rgb(255, 255, 255);
   font-size: 42px;
   margin-left: 15px;
+  margin-top: 30px;
 }
 .projects-content img {
   margin-right: 10px;
+}
+
+.giac img {
+  width: 150px;
+}
+
+.icon-normal img{
+  width: 20px;
 }
