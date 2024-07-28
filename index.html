@@ -1,65 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Armaandeep's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
-        <a href="#" class="logo">Armaandeep Sarai </a>
+      <a href="#" class="logo">Armaandeep Sarai </a>
 
-        <nav class="navbar">
-            <a href="#about">About Me</a>
-            <a href="#">Education</a>
-            <a href="#">Projects + Skills</a>
-            <a href="#">Links</a>
-        </nav>
+      <nav class="navbar">
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#">Projects + Skills</a>
+        <a href="#social">Links</a>
+      </nav>
     </header>
 
     <section class="home">
-        <div class="home-content">
-            <h3>Hi👋</h3>
+      <div class="home-content">
+        <h3>Hi👋</h3>
 
-            <h1>I'm Armaandeep <br>a Software Engineer!</h1>
-            
-            <div class="btn-box">
-                <button class="btn-1">Hire Me</button>
-                <button class="btn-2">Experience</button>
-            </div>
+        <h1>I'm Armaandeep <br />a Software Engineer!</h1>
+
+        <div class="btn-box">
+          <button class="btn-1">Hire Me</button>
+          <button class="btn-2">Experience</button>
         </div>
-        <div class="img-box">
-            <img src="img.jpg" alt="">
-        </div>
+      </div>
+      <div class="img-box">
+        <img src="img.jpg" alt="" />
+      </div>
     </section>
 
     <section id="about" class="about">
-        <div class="about-img">
-            <img src="img2.jpg" alt="">
+      <div class="about-img">
+        <img src="img2.jpg" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About Me</h2>
+        <p>
+          I am passionate about pursuing a career in cybersecurity or cloud
+          networking due to my strong interest in protecting digital assets and
+          managing cloud infrastructures. With a solid foundation in IT basics
+          and a keen understanding of emerging threats, I am eager to contribute
+          to safeguarding sensitive data. I am dedicated to continuous learning
+          and staying updated with the latest technologies and best practices in
+          the field. My goal is to leverage my skills to create secure,
+          efficient, and resilient network systems for organizations.
+        </p>
+        <button class="btn-2">Experience</button>
+      </div>
+    </section>
+
+    <section id="education" class="education">
+      <div>
+        <div class="education-img">
+          <img src="bths.png" alt="" />
+          <h2 class="heading">Brooklyn Technical High School</h2>
         </div>
 
-        <div class="about-content">
-            <h2 class="heading">About Me</h2>
-            <p>I am passionate about pursuing a career in cybersecurity or cloud networking due to my strong interest in protecting digital assets and managing cloud infrastructures. With a solid foundation in IT basics and a keen understanding of emerging threats, I am eager to contribute to safeguarding sensitive data. I am dedicated to continuous learning and staying updated with the latest technologies and best practices in the field. My goal is to leverage my skills to create secure, efficient, and resilient network systems for organizations.</p>
-            <button class="btn-2">Experience</button>
+        <div class="education-content">
+          <ul>
+            <li>AP Computer Science Principles (Python)</li>
+            <li>AP Computer Science A (Java)</li>
+            <li>Cybersecurity</li>
+            <li>Web Development</li>
+            <li>Information Technology</li>
+          </ul>
         </div>
+      </div>
+      <div>
+        <div class="education-img">
+          <img src="adelphi.png" alt="" />
+          <h2 class="heading">Adelphi University</h2>
+        </div>
+
+        <div class="education-content">
+          <ul>
+            <li>Specializing in Cybersecurity Track</li>
+            <li>Introduction to Computer Programming</li>
+            <li>Biological Anthropology</li>
+            <li>Calculus I</li>
+            <li>Computer Programming Lab</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <footer class="footer">
-        <div class="social">
-            <a href="#"><img src="linkedin.svg" class="icon"></a>
-            <a href="#"><i class='bx bxl-github'></i></a>
-            <a href="#"><i class='bx bxl-instagram'></i></a>
-        </div>
-        <ul class="list">
-            <li>
-                <a href="#">About Me</a>
-                <a href="#">Education</a>
-                <a href="#">Projects + Skills</a>
-            </li>
-        </ul>
+      <div id="social" class="social">
+        <a href="https://www.linkedin.com/in/armaandeep-sarai"
+          ><img src="linkedin.svg" class="icon"
+        /></a>
+        <a href="https://github.com/armaannnsarai"
+          ><img src="github.svg" class="icon"
+        /></a>
+        <a href="https://www.instagram.com/armaannsarai/"
+          ><img src="insta.svg" class="icon"
+        /></a>
+      </div>
+      <ul class="list">
+        <li>
+          <a href="#about">About Me</a>
+          <a href="#education">Education</a>
+          <a href="#project">Projects + Skills</a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
