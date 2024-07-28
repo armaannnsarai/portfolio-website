@@ -279,3 +279,38 @@ html {
   font-size: 20px;
   margin: 10px;
 }
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12% 8%;
+  gap: 10em;
+  background: rgb(0, 0, 0);
+}
+
+.projects-content a{
+  color: white;
+  transition: 0.3s ease;
+}
+
+.projects-content a:hover{
+  border-bottom: 3px solid orangered;
+}
+
+.projects-content li {
+  text-wrap: nowrap;
+  font-size: 20px;
+  margin: 10px;
+  color: white;
+  margin-left: 15px;
+}
+.projects h2 {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-size: 42px;
+  margin-left: 15px;
+}
+.projects-content img {
+  margin-right: 10px;
+}
